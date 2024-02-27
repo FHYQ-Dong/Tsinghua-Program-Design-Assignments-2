@@ -37,7 +37,7 @@
                 "Name": "Optional-Experiment1-1",
                 "Problem": "利用‘*’符号，使用格式控制符，在控制台组成一个“龙”字图样",
                 "Input-Format": "略",
-                "Output-Format": "“龙“字",
+                "Output-Format": "“龙”字",
                 "Path-to-C": "optional/Optional-Experiment1-1.cpp",
                 "Path-to-EXE": "optional/Optional-Experiment1-1.exe",
                 "Inputs": [
