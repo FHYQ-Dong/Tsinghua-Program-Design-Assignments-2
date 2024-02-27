@@ -1,0 +1,49 @@
+{
+    "Name": "Experiment1-董皓彧",
+    "Url": "https://github.com/FHYQ-Dong/Tsinghua-Program-Design-Assignments-2/tree/main/Experiment1",
+    "Environment": [
+        "g++.exe (x86_64-win32-seh-rev1, Built by MinGW-Builds project) 13.2.0",
+        "Visual Stdio Code 1.86.2"
+    ],
+    "Experiments": {
+        "compulsive": [
+            {
+                "Name": "Experiment1-1",
+                "Problem": "用 C++ 打印杨辉三角，直至第十行",
+                "Input-Format": "略",
+                "Output-Format": "杨辉三角",
+                "Path-to-C": "compulsive/Experiment1-1.cpp",
+                "Path-to-EXE": "compulsive/Experiment1-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            },
+            {
+                "Name": "Experiment1-2",
+                "Problem": "用 C++ 编程实现如下三维动态数组 x：动态数组大小为 n×n×n，x[i][j][k] = i*j/(k+1)，输出该三维数组各个元素之和，取 n=5, 10, 15",
+                "Input-Format": "一个数字 n，表示三维数组的大小",
+                "Output-Format": "一行，一个数字，表示该三维数组各个元素之和",
+                "Path-to-C": "compulsive/Experiment1-2.cpp",
+                "Path-to-EXE": "compulsive/Experiment1-2.exe",
+                "Inputs": [
+                    "5",
+                    "10",
+                    "15"
+                ]
+            }            
+        ],
+        "optional": [
+            {
+                "Name": "Optional-Experiment1-1",
+                "Problem": "利用‘*’符号，使用格式控制符，在控制台组成一个“龙”字图样",
+                "Input-Format": "略",
+                "Output-Format": "“龙“字",
+                "Path-to-C": "optional/Optional-Experiment1-1.cpp",
+                "Path-to-EXE": "optional/Optional-Experiment1-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            }
+        ]
+    }
+}
