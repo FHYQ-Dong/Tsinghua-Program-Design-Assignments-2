@@ -229,6 +229,8 @@ class List {
         void reverse();
         iterator find_the_first(const T &data);
         iterator find_the_last(const T &data);
+        iterator find_the_next(const T &data, const iterator &it);
+        iterator find_the_prev(const T &data, const iterator &it);
         void print();
         iterator begin();
         iterator end();
@@ -470,6 +472,24 @@ typename List<T>::iterator List<T>::find_the_first(const T &data) {
 template <typename T>
 typename List<T>::iterator List<T>::find_the_last(const T &data) {
     for (Node<T> *p = tail; p != nullptr; p = p->prev) {
+        if (p->data == data) {
+            return iterator(p);
+        }
+    }
+    return end();
+}
+template <typename T>
+typename List<T>::iterator List<T>::find_the_next(const T &data, const iterator &it) {
+    for (Node<T> *p = it.ptr->next; p != nullptr; p = p->next) {
+        if (p->data == data) {
+            return iterator(p);
+        }
+    }
+    return end();
+}
+template <typename T>
+typename List<T>::iterator List<T>::find_the_prev(const T &data, const iterator &it) {
+    for (Node<T> *p = it.ptr->prev; p != nullptr; p = p->prev) {
         if (p->data == data) {
             return iterator(p);
         }
