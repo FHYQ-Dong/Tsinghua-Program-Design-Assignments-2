@@ -104,7 +104,7 @@ class ProjectReportCreater():
             self.mdCreater.markdown_write_input_format(Experiment['Input-Format'])
             self.mdCreater.markdown_write_output_format(Experiment['Output-Format'])
             ExperimentResult = self.get_one_experiment_result(Experiment)
-            self.mdCreater.markdown_write_program(ExperimentResult['Code'], 'c')
+            self.mdCreater.markdown_write_program(ExperimentResult['Code'], 'cpp')
             for idx in range(len(ExperimentResult['Input'])):
                 self.mdCreater.markdown_write_input(ExperimentResult['Input'][idx], idx+1)
                 self.mdCreater.markdown_write_output(ExperimentResult['Output'][idx], idx+1)
@@ -119,7 +119,7 @@ class ProjectReportCreater():
                     self.mdCreater.markdown_write_input_format(Experiment['Input-Format'])
                     self.mdCreater.markdown_write_output_format(Experiment['Output-Format'])
                     ExperimentResult = self.get_one_experiment_result(Experiment)
-                    self.mdCreater.markdown_write_program(ExperimentResult['Code'], 'c')
+                    self.mdCreater.markdown_write_program(ExperimentResult['Code'], 'cpp')
                     for idx in range(len(ExperimentResult['Input'])):
                         self.mdCreater.markdown_write_input(ExperimentResult['Input'][idx], idx+1)
                         self.mdCreater.markdown_write_output(ExperimentResult['Output'][idx], idx+1)

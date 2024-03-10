@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstring>
-using std::cerr, std::endl;
+using std::cout, std::endl;
 
 class Person {
     private:
@@ -10,25 +10,25 @@ class Person {
         Person() {
             name = nullptr;
             age = 0;
-            cerr << "default constructor" << endl;
+            cout << "default constructor" << endl;
         }
         Person(const char* name, int age) {
             size_t len = strlen(name);
             this->name = new char[len + 1];
             strcpy(this->name, name);
             this->age = age;
-            cerr << "constructor with args" << endl;
+            cout << "constructor with args" << endl;
         }
         Person(const Person& p) {
             size_t len = strlen(p.name);
             this->name = new char[len + 1];
             strcpy(this->name, p.name);
             this->age = p.age;
-            cerr << "deep copy constructor" << endl;
+            cout << "deep copy constructor" << endl;
         }
         ~Person() {
-            delete[] name; // cause error if name is nullptr (when shallow copy is used & the original object is destructed)
-            cerr << "destructor" << endl;
+            // delete[] name; // cause error if name is nullptr (when shallow copy is used & the original object is destructed)
+            cout << "destructor" << endl;
         }
 };
 

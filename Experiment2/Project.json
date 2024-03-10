@@ -7,39 +7,26 @@
     ],
     "Experiments": {
         "compulsive": [
+        ],
+        "optional": [
             {
-                "Name": "Experiment2-1",
-                "Problem": "用 C++ 打印杨辉三角，直至第十行",
+                "Name": "Optional-Experiment2-1",
+                "Problem": "编写一个程序，定义一个类 Person，其中包含name（字符指针）和age（整型变量）两个成员变量。之后编写 Person 类的构造函数，复制构造函数和析构函数，在主函数中实现深复制与浅复制，并分析构造函数和析构函数的调用时机",
                 "Input-Format": "略",
-                "Output-Format": "杨辉三角",
-                "Path-to-C": "compulsive/Experiment2-1.cpp",
-                "Path-to-EXE": "compulsive/Experiment2-1.exe",
+                "Output-Format": "见代码注释",
+                "Path-to-C": "optional/Optional-Experiment2-1.cpp",
+                "Path-to-EXE": "optional/Optional-Experiment2-1.exe",
                 "Inputs": [
                     ""
                 ]
             },
             {
-                "Name": "Experiment2-2",
-                "Problem": "用 C++ 编程实现如下三维动态数组 x：动态数组大小为 n×n×n，x[i][j][k] = i*j/(k+1)，输出该三维数组各个元素之和，取 n=5, 10, 15",
-                "Input-Format": "一个数字 n，表示三维数组的大小",
-                "Output-Format": "一行，一个数字，表示该三维数组各个元素之和",
-                "Path-to-C": "compulsive/Experiment2-2.cpp",
-                "Path-to-EXE": "compulsive/Experiment2-2.exe",
-                "Inputs": [
-                    "5",
-                    "10",
-                    "15"
-                ]
-            }            
-        ],
-        "optional": [
-            {
-                "Name": "Optional-Experiment2-1",
-                "Problem": "利用‘*’符号，使用格式控制符，在控制台组成一个“龙”字图样",
+                "Name": "Optional-Experiment2-2",
+                "Problem": "利用类（class）实现链表，要求实现链表元素查找、插入、删除、逆转、打印，并自行编写测试样例",
                 "Input-Format": "略",
-                "Output-Format": "“龙”字",
-                "Path-to-C": "optional/Optional-Experiment2-1.cpp",
-                "Path-to-EXE": "optional/Optional-Experiment2-1.exe",
+                "Output-Format": "见代码注释",
+                "Path-to-C": "optional/Optional-Experiment2-2.cpp",
+                "Path-to-EXE": "optional/Optional-Experiment2-2.exe",
                 "Inputs": [
                     ""
                 ]
