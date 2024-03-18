@@ -9,41 +9,15 @@
         "compulsive": [
             {
                 "Name": "Experiment3-1",
-                "Problem": "用 C++ 打印杨辉三角，直至第十行",
+                "Problem": "•先声明一个点类Point，成员为其坐标x，y，并设计构造函数（可赋初值也可以不赋初值）、复制构造函数、析构函数（打印信息，表示其被调用），设置新值函数Set, 打印成员坐标值函数Print\n•再声明一个矩形类Rectangle，其成员为矩形的左下角和右上角两个Point对象，并设计Rectangle构造函数（分别由x1，y1，x2，y2坐标值构造，或由p1，p2两个点对象构造，可赋初值也可以不赋初值）、复制构造函数、析构函数（打印信息，表示其被调用），设置新值函数Set, 打印成员值函数Print，计算矩形面积函数Area，以及其它你认为对访问此类对象有用的成员函数。并用此Rectangle类定义对象，调用所有成员函数",
                 "Input-Format": "略",
-                "Output-Format": "杨辉三角",
+                "Output-Format": "打印出的函数调用信息",
                 "Path-to-C": "compulsive/Experiment3-1.cpp",
                 "Path-to-EXE": "compulsive/Experiment3-1.exe",
                 "Inputs": [
                     ""
                 ]
-            },
-            {
-                "Name": "Experiment3-2",
-                "Problem": "用 C++ 编程实现如下三维动态数组 x：动态数组大小为 n×n×n，x[i][j][k] = i*j/(k+1)，输出该三维数组各个元素之和，取 n=5, 10, 15",
-                "Input-Format": "一个数字 n，表示三维数组的大小",
-                "Output-Format": "一行，一个数字，表示该三维数组各个元素之和",
-                "Path-to-C": "compulsive/Experiment3-2.cpp",
-                "Path-to-EXE": "compulsive/Experiment3-2.exe",
-                "Inputs": [
-                    "5",
-                    "10",
-                    "15"
-                ]
-            }            
-        ],
-        "optional": [
-            {
-                "Name": "Optional-Experiment3-1",
-                "Problem": "利用‘*’符号，使用格式控制符，在控制台组成一个“龙”字图样",
-                "Input-Format": "略",
-                "Output-Format": "“龙”字",
-                "Path-to-C": "optional/Optional-Experiment3-1.cpp",
-                "Path-to-EXE": "optional/Optional-Experiment3-1.exe",
-                "Inputs": [
-                    ""
-                ]
-            }
+            }         
         ]
     }
 }
