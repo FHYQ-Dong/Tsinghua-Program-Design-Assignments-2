@@ -1,0 +1,47 @@
+{
+    "Name": "Experiment5-董皓彧",
+    "Url": "https://github.com/FHYQ-Dong/Tsinghua-Program-Design-Assignments-2/tree/main/Experiment5",
+    "Environment": [
+        "g++.exe (x86_64-win32-seh-rev1, Built by MinGW-Builds project) 13.2.0",
+        "Visual Stdio Code 1.86.2"
+    ],
+    "Experiments": {
+        "compulsive": [
+            {
+                "Name": "Experiment5-1",
+                "Problem": "设计一个用于人事管理的People(人员)类,具有的属性如下:姓名char name[11]、编号char number[7]、性别char sex[3]、生日birthday、身份证号char id[16]。其中“出生日期”声明为一个“日期”类内嵌子对象。用成员函数实现对人员信息的录人和显示。要求包括构造函数和析构函数、拷贝构造函数、内联成员函数、运算符重载等。在测试程序中声明。",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "compulsive/Experiment5-1.cpp",
+                "Path-to-EXE": "compulsive/Experiment5-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            },
+            {
+                "Name": "Experiment5-2",
+                "Problem": "定义一个Teacher 类和一个Student类,两者有一部分的数据成员是相同的,例如:num，name和sex。编写一个程序,将一个Teacher 类对象转为 Student类对象,只需将以上3个相同的数据成员移植过去。",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "compulsive/Experiment5-2.cpp",
+                "Path-to-EXE": "compulsive/Experiment5-2.exe",
+                "Inputs": [
+                    ""
+                ]
+            }            
+        ],
+        "optional": [
+            {
+                "Name": "Optional-Experiment5-1",
+                "Problem": "定义一个字符串类String，其唯一数据是一个字符串\n•重载“+”，使其能够完成两端对象的字符串的拼接，并返回一个新的string对象\n•重载“<<”，输出字符串的值\n•重载“*”,对于一个String对象a, a*3表示将a中的字符串复制三遍并顺序拼接起来，只对对象a自身进行操作，不要求返回值。",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "optional/Optional-Experiment5-1.cpp",
+                "Path-to-EXE": "optional/Optional-Experiment5-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            }
+        ]
+    }
+}

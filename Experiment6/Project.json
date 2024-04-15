@@ -1,0 +1,58 @@
+{
+    "Name": "Experiment6-董皓彧",
+    "Url": "https://github.com/FHYQ-Dong/Tsinghua-Program-Design-Assignments-2/tree/main/Experiment6",
+    "Environment": [
+        "g++.exe (x86_64-win32-seh-rev1, Built by MinGW-Builds project) 13.2.0",
+        "Visual Stdio Code 1.88.0"
+    ],
+    "Experiments": {
+        "compulsive": [
+            {
+                "Name": "Experiment6-1",
+                "Problem": "分析复制构造函数与类型转换构造函数的区别与联系？总结一下到目前为止学习了哪些类型的构造函数？各有什么特点？",
+                "Input-Format": "略",
+                "Output-Format": "略",
+                "Path-to-C": "compulsive/Experiment6-1.cpp",
+                "Path-to-EXE": "compulsive/Experiment6-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            },
+            {
+                "Name": "Experiment6-2",
+                "Problem": "编写一个程序,用成员函数重载运算符 “+” 和 “-” 将两个二维数组相加和相减，要求第一个二维数据的值由构造函数来设定，第二个二维数据的值由键盘输入。",
+                "Input-Format": "一个 3x3 的二维数组，每个元素之间用空格隔开，一共 3 行",
+                "Output-Format": "相加减的结果",
+                "Path-to-C": "compulsive/Experiment6-2.cpp",
+                "Path-to-EXE": "compulsive/Experiment6-2.exe",
+                "Inputs": [
+                    "1 1 1\n1 1 1\n1 1 1"
+                ]
+            }            
+        ],
+        "optional": [
+            {
+                "Name": "Optional-Experiment6-1",
+                "Problem": "编写一个三维向量类 vector3 ，重载运算符 “*”，实现两个向量间的外积，重载为友元函数",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "optional/Optional-Experiment6-1.cpp",
+                "Path-to-EXE": "optional/Optional-Experiment6-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            },
+            {
+                "Name": "Optional-Experiment6-2",
+                "Problem": "编写 Date 类，包含年、月、日，并重载 “++” 运算符（前置后置都需要重载），实现日期增加 1 天，重载为成员函数",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "optional/Optional-Experiment6-2.cpp",
+                "Path-to-EXE": "optional/Optional-Experiment6-2.exe",
+                "Inputs": [
+                    ""
+                ]
+            }
+        ]
+    }
+}
