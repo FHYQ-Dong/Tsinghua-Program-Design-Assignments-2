@@ -24,7 +24,7 @@ class Person {
             std::cout << "Age: " << age << std::endl;
         }
 
-    friend std::istream&  operator >> (std::istream& is, Person& p) {
+    friend std::istream& operator >> (std::istream& is, Person& p) {
         std::string name; is >> name;
         p.name = new char[name.length() + 1]; strcpy(p.name, name.c_str());
         is >> p.sex >> p.age;
@@ -46,14 +46,18 @@ class Employee : public Person {
         Employee(const char* name=nullptr, char sex=' ', int age=0, int basicSalary=0, int leaveDays=0) : Person(name, sex, age), basicSalary(basicSalary), leaveDays(leaveDays) {}
         ~Employee() {}
         void show() {
-            Person::show();
-            std::cout << "Basic Salary: " << basicSalary << std::endl;
-            std::cout << "Leave Days: " << leaveDays << std::endl;
+            std::cout << (*this);
         }
 
-    friend std::istream&  operator >> (std::istream& is, Employee& e) {
+    friend std::istream& operator >> (std::istream& is, Employee& e) {
         is >> static_cast<Person&>(e) >> e.basicSalary >> e.leaveDays;
         return is;
+    }
+    friend std::ostream& operator << (std::ostream& os, const Employee& e) {
+        os << static_cast<const Person&>(e);
+        os << "Basic Salary: " << e.basicSalary << std::endl;
+        os << "Leave Days: " << e.leaveDays << std::endl;
+        return os;
     }
 };
 
@@ -65,16 +69,22 @@ class Manager : public Employee {
         Manager(const char* name=nullptr, char sex=' ', int age=0, int basicSalary=0, int leaveDays=0, float performance=0) : Employee(name, sex, age, basicSalary, leaveDays), performance(performance) {}
         ~Manager() {}
         void show() {
-            Employee::show();
-            std::cout << "Performance: " << performance << std::endl;
+            std::cout << (*this);
         }
-
-    friend int main();
+    
+    friend std::istream& operator >> (std::istream& is, Manager& m) {
+        is >> static_cast<Employee&>(m) >> m.performance;
+        return is;
+    }
+    friend std::ostream& operator << (std::ostream& os, const Manager& m) {
+        os << static_cast<const Employee&>(m);
+        os << "Performance: " << m.performance << std::endl;
+        return os;
+    }
 };
 
 int main() {
     Manager m;
-    std::string name; std::cin >> name;
-    m.name = new char[name.length() + 1]; strcpy(m.name, name.c_str());
+    std::cin >> m;
     m.show();
 }
