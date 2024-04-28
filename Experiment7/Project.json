@@ -1,0 +1,58 @@
+{
+    "Name": "Experiment7-董皓彧",
+    "Url": "https://github.com/FHYQ-Dong/Tsinghua-Program-Design-Assignments-2/tree/main/Experiment7",
+    "Environment": [
+        "g++.exe (x86_64-win32-seh-rev1, Built by MinGW-Builds project) 13.2.0",
+        "Visual Stdio Code 1.88.1"
+    ],
+    "Experiments": {
+        "compulsive": [
+            {
+                "Name": "Experiment7-1",
+                "Problem": "设计一个用于人事管理的People(人员)类,具有的属性如下:姓名char name[11]、编号char number[7]、性别char sex[3]、生日birthday、身份证号char id[16]。其中“出生日期”声明为一个“日期”类内嵌子对象。用成员函数实现对人员信息的录人和显示。要求包括构造函数和析构函数、拷贝构造函数、内联成员函数、运算符重载等。在测试程序中声明。",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "compulsive/Experiment7-1.cpp",
+                "Path-to-EXE": "compulsive/Experiment7-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            },
+            {
+                "Name": "Experiment7-2",
+                "Problem": "在上一题的基础上,从People(人员)类派生出student(学生)类,添加属性:班号charclassNo[7];从 People(人员)类派生出 teacher(教师)类,添加属性:职务 char principalship[11]部门 char department[21];从 student类中派生出 graduate(研究生)类、添加属性:专业 charsubject[21]、导师 teacher advisor;从teacher 类和 graduate类派生出 TA(助教)类,注意虚基类的使用。要求编制一能管理上述四类人员的测试程序,能实现数据项录入、显示、删除操作。",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "compulsive/Experiment7-2.cpp",
+                "Path-to-EXE": "compulsive/Experiment7-2.exe",
+                "Inputs": [
+                    ""
+                ]
+            },
+            {
+                "Name": "Experiment7-3",
+                "Problem": "在第6题的基础上,补充各类(People、student、graduate、teacher和TA)的构造函数和析构函数。\n(1)编程测试和分析这些构造函数和析构函数的执行顺序。\n(2)如果不采用虚基类,重新编程实现第5次作业要求,体会有什么差异?",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "compulsive/Experiment7-3.cpp",
+                "Path-to-EXE": "compulsive/Experiment7-3.exe",
+                "Inputs": [
+                    ""
+                ]
+            }  
+        ],
+        "optional": [
+            {
+                "Name": "Optional-Experiment7-1",
+                "Problem": "定义点类、线段类、矩形类的层次结构。每个矩形由4条线段组成，每条线段由2个点组成，要求每个点只构造1次",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "optional/Optional-Experiment7-1.cpp",
+                "Path-to-EXE": "optional/Optional-Experiment7-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            }
+        ]
+    }
+}
