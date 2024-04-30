@@ -1,0 +1,58 @@
+{
+    "Name": "Experiment8-董皓彧",
+    "Url": "https://github.com/FHYQ-Dong/Tsinghua-Program-Design-Assignments-2/tree/main/Experiment8",
+    "Environment": [
+        "g++.exe (x86_64-win32-seh-rev1, Built by MinGW-Builds project) 13.2.0",
+        "Visual Stdio Code 1.88.1"
+    ],
+    "Experiments": {
+        "compulsive": [
+            {
+                "Name": "Experiment8-1",
+                "Problem": "分析下列程序的运行结果",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "compulsive/Experiment8-1.cpp",
+                "Path-to-EXE": "compulsive/Experiment8-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            },
+            {
+                "Name": "Experiment8-2",
+                "Problem": "声明一个哺乳动物Mammal类，再由此派生出狗Dog类，二者都定义speak()成员函数，基类中定义为虚函数。声明一个Dog类的对象，调用Speak()函数，观察运行结果。",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "compulsive/Experiment8-2.cpp",
+                "Path-to-EXE": "compulsive/Experiment8-2.exe",
+                "Inputs": [
+                    ""
+                ]
+            },
+            {
+                "Name": "Experiment8-3",
+                "Problem": "声明一个Shape抽象类，在此基础上派生出Rectangle和Circle类，二者都有getArea()函数计算对象的面积，getPerim()函数计算对象的周长。给定部分程序代码，根据题意要求和基类代码，完成整个程序。",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "compulsive/Experiment8-3.cpp",
+                "Path-to-EXE": "compulsive/Experiment8-3.exe",
+                "Inputs": [
+                    ""
+                ]
+            }  
+        ],
+        "optional": [
+            {
+                "Name": "Optional-Experiment8-1",
+                "Problem": "回顾上一讲附加题，通过继承方式实现了点、线、矩阵类，请考虑在此基础上实现下列功能；\n1. 定义抽象类shape，包含求面积函数和输出函数，其中输出函数用纯虚函数实现；\n2. 除了矩阵类之外，再派生出三角类和圆类；这些派生类中输出函数用于说明派生类是什么形状；\n3. 在主函数中，使用基函数指针数组，分别调用不同类实体",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "optional/Optional-Experiment8-1.cpp",
+                "Path-to-EXE": "optional/Optional-Experiment8-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            }
+        ]
+    }
+}
