@@ -1,0 +1,69 @@
+{
+    "Name": "Experiment9-董皓彧",
+    "Url": "https://github.com/FHYQ-Dong/Tsinghua-Program-Design-Assignments-2/tree/main/Experiment9",
+    "Environment": [
+        "g++.exe (x86_64-win32-seh-rev1, Built by MinGW-Builds project) 13.2.0",
+        "Visual Stdio Code 1.89.0"
+    ],
+    "Experiments": {
+        "compulsive": [
+            {
+                "Name": "Experiment9-1",
+                "Problem": "建立一个文本文件,从键盘输入一篇短文存放在该文件中,短文由若干行构成,每行不超过30个字符。然后将文本文件读出,显示在屏幕上并统计该文件的行数。",
+                "Input-Format": "若干行文本，每行不超过30个字符。",
+                "Output-Format": "一个文本文件，文件名为Experiment9-1.txt，内容为输入的短文；同时输出到终端中。",
+                "Path-to-C": "compulsive/Experiment9-1.cpp",
+                "Path-to-EXE": "compulsive/Experiment9-1.exe",
+                "Inputs": [
+                    "AAAAAAAAAAAAAAAAA\nBBBB\nCCCCCCCCC\nDDDDDD\nEEEEEEEEEEE\nFF"
+                ]
+            },
+            {
+                "Name": "Experiment9-2",
+                "Problem": "设有两个按升序排列的二进制数据文件f和g,将它们合并生成一个新的升序二进制数据文件h。",
+                "Input-Format": "两个文件二进制，文件名分别为Experiment9-2-1.bin和Experiment9-2-2.bin，内容为两个升序排列的二进制数据文件。",
+                "Output-Format": "一个二进制文件，文件名为Experiment9-2-3.bin，内容为合并后的升序二进制数据文件。",
+                "Path-to-C": "compulsive/Experiment9-2.cpp",
+                "Path-to-EXE": "compulsive/Experiment9-2.exe",
+                "Inputs": [
+                    ""
+                ]
+            },
+            {
+                "Name": "Experiment9-3",
+                "Problem": "在Experiment9-1基础上,采用字符串流类的相关概念,修改程序,将键盘读人的数据先存放在数组c中,然后在写人到文件。接着从文件中再读入到数组d中,在从数组d输出到屏幕。",
+                "Input-Format": "若干行文本，每行不超过30个字符。",
+                "Output-Format": "一个文本文件，文件名为Experiment9-3.txt，内容为输入的短文；同时输出到终端中。",
+                "Path-to-C": "compulsive/Experiment9-3.cpp",
+                "Path-to-EXE": "compulsive/Experiment9-3.exe",
+                "Inputs": [
+                    "AAAAAAAAAAAAAAAAA\nBBBB\nCCCCCCCCC\nDDDDDD\nEEEEEEEEEEE\nFF"
+                ]
+            },
+            {
+                "Name": "Experiment9-4",
+                "Problem": "阅读下列程序，写出执行结果",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "compulsive/Experiment9-4.cpp",
+                "Path-to-EXE": "compulsive/Experiment9-4.exe",
+                "Inputs": [
+                    ""
+                ]
+            }  
+        ],
+        "optional": [
+            {
+                "Name": "Optional-Experiment9-1",
+                "Problem": "定义一个极坐标类数据成员包括极径和极角两个数字；成员函数包括但不限于构造函数、复制构造函数、析构函数、及其他重载函数，可通过键盘输入复数、向屏幕输出复数。\n•要求重载“ 和“ “>>”>>”，使极坐标类可以直接调用；\n•要求重载加、减、乘、 除法",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "optional/Optional-Experiment9-1.cpp",
+                "Path-to-EXE": "optional/Optional-Experiment9-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            }
+        ]
+    }
+}
