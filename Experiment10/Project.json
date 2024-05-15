@@ -1,0 +1,58 @@
+{
+    "Name": "Experiment10-董皓彧",
+    "Url": "https://github.com/FHYQ-Dong/Tsinghua-Program-Design-Assignments-2/tree/main/Experiment10",
+    "Environment": [
+        "g++.exe (x86_64-win32-seh-rev1, Built by MinGW-Builds project) 13.2.0",
+        "Visual Stdio Code 1.89.0"
+    ],
+    "Experiments": {
+        "compulsive": [
+            {
+                "Name": "Experiment10-1",
+                "Problem": "解释为什么在C++每个程序前需要加一条“using namespace std;”",
+                "Input-Format": "若干行文本，每行不超过30个字符。",
+                "Output-Format": "一个文本文件，文件名为Experiment10-1.txt，内容为输入的短文；同时输出到终端中。",
+                "Path-to-C": "compulsive/Experiment10-1.cpp",
+                "Path-to-EXE": "compulsive/Experiment10-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            },
+            {
+                "Name": "Experiment10-2",
+                "Problem": "设计一个函数模板,其中包括数据成员T a[n]以及对其进行排序的成员函数sort(),模板参数T可实例化成字符串。",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "compulsive/Experiment10-2.cpp",
+                "Path-to-EXE": "compulsive/Experiment10-2.exe",
+                "Inputs": [
+                    ""
+                ]
+            },
+            {
+                "Name": "Experiment10-3",
+                "Problem": "设计一个类模板,其中包括数据成员T a[n]以及在其中进行査找数据元素的函数int search(T),模板参数T可实例化成字符串。",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "compulsive/Experiment10-3.cpp",
+                "Path-to-EXE": "compulsive/Experiment10-3.exe",
+                "Inputs": [
+                    ""
+                ]
+            }
+        ],
+        "optional": [
+            {
+                "Name": "Optional-Experiment10-1",
+                "Problem": "请使用函数模板或类模版，实现快速排序算法，使其可以被用于不同数据类型的序列排序",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "optional/Optional-Experiment10-1.cpp",
+                "Path-to-EXE": "optional/Optional-Experiment10-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            }
+        ]
+    }
+}
