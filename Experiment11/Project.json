@@ -1,0 +1,47 @@
+{
+    "Name": "Experiment11-董皓彧",
+    "Url": "https://github.com/FHYQ-Dong/Tsinghua-Program-Design-Assignments-2/tree/main/Experiment11",
+    "Environment": [
+        "g++.exe (x86_64-win32-seh-rev1, Built by MinGW-Builds project) 13.2.0",
+        "Visual Stdio Code 1.89.0"
+    ],
+    "Experiments": {
+        "compulsive": [
+            {
+                "Name": "Experiment11-1",
+                "Problem": "使用STL中的vector，生成长度为120的整型动态数组，其各个元素取值随机。然后，依次将数组中第1，2，3，5…位置（斐波那契数）的元素删除。接着，使用内置的sort函数，对当前数组的前一半进行升序排序，后一半进行降序排序（若长度为奇数，正中间的元素归为前一半）。最后，将排序后结果输出到屏幕上。",
+                "Input-Format": "无",
+                "Output-Format": "一行，排序结果，用空格隔开",
+                "Path-to-C": "compulsive/Experiment11-1.cpp",
+                "Path-to-EXE": "compulsive/Experiment11-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            },
+            {
+                "Name": "Experiment11-2",
+                "Problem": "选择STL中某一容器来实现：容器A，B，C内分别含有12，6，18个随机生成的整型变量。首先求A和C容器的交集，得到容器D。然后，求B和D的并集E，并将新得到集合E中的元素按照从小到大的顺序输出。",
+                "Input-Format": "无",
+                "Output-Format": "一行，集合运算的结果，升序输出，用空格隔开",
+                "Path-to-C": "compulsive/Experiment11-2.cpp",
+                "Path-to-EXE": "compulsive/Experiment11-2.exe",
+                "Inputs": [
+                    ""
+                ]
+            }
+        ],
+        "optional": [
+            {
+                "Name": "Optional-Experiment11-1",
+                "Problem": "请使用函数模板或类模版，实现快速排序算法，使其可以被用于不同数据类型的序列排序",
+                "Input-Format": "无",
+                "Output-Format": "略",
+                "Path-to-C": "optional/Optional-Experiment11-1.cpp",
+                "Path-to-EXE": "optional/Optional-Experiment11-1.exe",
+                "Inputs": [
+                    ""
+                ]
+            }
+        ]
+    }
+}
